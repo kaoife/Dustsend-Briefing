@@ -101,12 +101,12 @@ export default {
       ],
       "pilots": [
         {
-          "callsign": "UNKNOWN",
-          "alias": "UNKNOWN",
-          "code": "UNKNOWN",
-          "corpro": "UNKNOWN",
-          "frame": "UNKNOWN",
-          "mech": "UNIDENTIFIED MECH"
+          "callsign": "Valkyrie",
+          "alias": "Lily Mercia※",
+          "code": "a7e13649-86e2-487f-8db4-f483a17e5e58//NDL-C-LUNAR-CRYPT",
+          "corpro": "GMS",
+          "frame": "Sagarmatha",
+          "mech": "Protec"
         },
         {
           "callsign": "UNKNOWN",
