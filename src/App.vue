@@ -132,6 +132,14 @@ export default {
           "frame": "UNKNOWN",
           "mech": "UNIDENTIFIED MECH"
         },
+        {
+          "callsign": "UNKNOWN",
+          "alias": "UNKNOWN",
+          "code": "UNKNOWN",
+          "corpro": "UNKNOWN",
+          "frame": "UNKNOWN",
+          "mech": "UNIDENTIFIED MECH"
+        },
       ],
       "header": {
         "planet": "Dustsend",
