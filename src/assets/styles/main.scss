@@ -5,35 +5,40 @@
 /*-------------------------------------*/
 
 //Primary Colors
-$primary: rgba(125, 187, 187, 1);
-$secondary: rgba(23, 29, 30, 0.8);
+$primary: rgb(126, 0, 0);
+$secondary: rgba(16, 20, 20, 0.8);
 $highlight-hover: rgba(255, 255, 255, 0.3);
 $highlight-active: rgba(255, 255, 255, 0.1);
 
 //Primary Text
-$text-headers: rgba(0, 0, 0, 1);
-$text-location: rgba(255, 255, 255, 0.87);
+$text-headers: #bc7700;
+$text-location: #ffa100;
+
+//Title Text
+$text-title: #ffa100;
+
 
 //Location Information
 $location-separator: rgba(255, 255, 255, 0.24);
 
 //Mission Pane
-$text-mission-title: rgba(255, 255, 255, 0.67);
-$text-mission-status: rgba(255, 255, 255, 0.87);
-$mission-start: rgba(109, 109, 109, 1);
+$text-mission-title: #ffa100;
+$text-mission-status: #ffa100;
+$mission-start: rgb(126, 0, 0);
 $mission-partial: rgba(88, 34, 102, 1);
 $mission-success: rgba(34, 102, 98, 1);
 $mission-failure: rgba(176, 45, 45, 1);
 
 //Pilot Roster Text
-$text-pilot-header: rgba(255, 255, 255, 0.67);
-$text-pilot-value: rgba(255, 255, 255, 0.87);
-$text-pilot-code: rgba(255, 255, 255, 0.47);
+$text-pilot-header: #bc7700;
+$text-pilot-value: #ffa100;
+$text-pilot-code: #9a6201;
 
 //Markdown (Current Assignment, Events Log, Pilot Biography)
-$text-markdown-p: rgba(255, 255, 255, 0.87);
-$text-markdown-h1: rgba(255, 255, 255, 0.67);
-$text-markdown-h2: rgba(255, 255, 255, 0.87);
+$text-markdown-p: #ffa100;
+$text-markdown-h1: #bc7700;
+$text-markdown-h2: #bc7700;
+$text-markdown-bold: rgb(178, 0, 0);
 
 @import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;600;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap");
@@ -111,6 +116,7 @@ header {
   animation-fill-mode: forwards;
   background-color: $primary;
   border-color: $primary;
+  color: $text-title;
   width: 700px;
   height: 100%;
   display: inline-flex;
@@ -320,6 +326,7 @@ section .section-header {
     align-self: center;
     font-family: "Big Shoulders Display", cursive;
     font-weight: 800;
+    color: $text-title;
     text-transform: uppercase;
     letter-spacing: 0.1em;
   }
@@ -333,7 +340,7 @@ section .section-header {
   z-index: 0;
 
   h3 {
-    color: $primary;
+    color: $text-markdown-bold;
     font-size: 18px;
     padding: 1em;
     padding-bottom: 0px;
@@ -643,6 +650,7 @@ section .section-header {
       align-self: center;
       font-family: "Big Shoulders Display", cursive;
       font-weight: 800;
+      color: $text-title;
       text-transform: uppercase;
       letter-spacing: 0.1em;
     }
@@ -767,16 +775,16 @@ div.markdown {
   transition: height 0.5s ease-in-out;
 
   p strong {
-    color: $primary;
+    color: $text-markdown-bold;
   }
 
   h1 {
     margin: 0px;
     margin-bottom: 0.25em;
     line-height: 1.5em;
-    font-family: "Raleway", sans-serif;
-    font-size: 10px;
-    font-weight: 800;
+    font-family: "Titillium Web", cursive;
+    font-weight: 400;
+    font-size: 16px;
     text-transform: uppercase;
     letter-spacing: 3px;
     color: $text-markdown-h1;
