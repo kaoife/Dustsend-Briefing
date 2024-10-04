@@ -109,12 +109,12 @@ export default {
           "mech": "Protec"
         },
         {
-          "callsign": "UNKNOWN",
-          "alias": "UNKNOWN",
-          "code": "UNKNOWN",
-          "corpro": "UNKNOWN",
-          "frame": "UNKNOWN",
-          "mech": "UNIDENTIFIED MECH"
+          "callsign": "Hummingbird",
+          "alias": "Arthur Oz Lestrange",
+          "code": "3ccb343e-8e7d-41bb-9141-29bc3d387f6c//NDL-C-STONE-CAIRN",
+          "corpro": "GMS",
+          "frame": "Everest",
+          "mech": "Sapphire"
         },
         {
           "callsign": "UNKNOWN",
