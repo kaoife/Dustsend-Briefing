@@ -117,28 +117,20 @@ export default {
           "mech": "Sapphire"
         },
         {
-          "callsign": "UNKNOWN",
-          "alias": "UNKNOWN",
-          "code": "UNKNOWN",
-          "corpro": "UNKNOWN",
-          "frame": "UNKNOWN",
-          "mech": "UNIDENTIFIED MECH"
+          "callsign": "Espresso",
+          "alias": "Myrtle Ripley",
+          "code": "0c7abbc8-edf4-4cfe-b36c-d84d3d4880e3//NDL-C-SECOND-ASH",
+          "corpro": "GMS",
+          "frame": "Chomolungma",
+          "mech": "Cappuccino"
         },
         {
-          "callsign": "UNKNOWN",
-          "alias": "UNKNOWN",
-          "code": "UNKNOWN",
-          "corpro": "UNKNOWN",
-          "frame": "UNKNOWN",
-          "mech": "UNIDENTIFIED MECH"
-        },
-        {
-          "callsign": "UNKNOWN",
-          "alias": "UNKNOWN",
-          "code": "UNKNOWN",
-          "corpro": "UNKNOWN",
-          "frame": "UNKNOWN",
-          "mech": "UNIDENTIFIED MECH"
+          "callsign": "Backshots",
+          "alias": "Ray Dent",
+          "code": "18f0b181-296b-40e9-be77-a9fc38478c0c//NDL-C-BARYON-DIVER",
+          "corpro": "GMS",
+          "frame": "Everest",
+          "mech": "Armstrong"
         },
       ],
       "header": {
