@@ -94,6 +94,11 @@ export default {
       "events": "",
       "missions": [
         {
+          "slug": "000",
+          "name": "Current Events",
+          "status": "start"
+        },
+        {
           "slug": "001",
           "name": "Archeology",
           "status": "start"
@@ -145,7 +150,7 @@ export default {
         "subheaderSubtitle": "Delta-Echo-Echo-Zulu",
       },
       "options":{
-        "eventsMarkdownPerMission": false
+        "eventsMarkdownPerMission": true
       }
     }
   },
